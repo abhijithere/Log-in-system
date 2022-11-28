@@ -1,0 +1,17 @@
+.stop{
+    transition: .5s;
+}
+.move{
+    transform: translateX(100%);
+}
+@media screen and (max-width: 380px)    {
+    .con{
+        width: 280px;
+    }
+    .a{
+        width: 230px;
+    }
+    .submit-portion{
+       width: 270px;
+    }
+}
